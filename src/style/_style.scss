@@ -18,28 +18,52 @@ body {
   margin: 0;
 }
 .page-header {
-  width: 100%;
-  padding-top: 15px;
+  width: 1140px;
+  margin: 0 auto;
 }
 .main-nav {
   display: flex;
   align-items: center;
-  font-size: 15px;
+  justify-content: space-between;
 }
-.logo {
-  margin-top: 26px;
-  margin-left: 45px;
-}
-.navigation {
-  &-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.logotype {
+  width: 196px;
+  height: 61px;
+  padding-top: 26px;
 }
 .navigation-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 646px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 46px;
 }
 .navigation-item {
+  margin-right: 40px;
+}
+.navigation-item:last-child {
+  margin-right: 0;
+}
+.navigation-item a {
+  font-size: 15px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #495e4c;
+}
+.connect {
+  border: 10px solid rgba(255, 255, 255, 1);
+  border-radius: 17px;
+  height: 55px;
+  background: #5ccd6a;
+  width: 190px;
+  color: #fff;
+  font-size: 15px;
+  font-family: Ruberoid;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.button-nav {
+  padding-top: 19px;
 }
